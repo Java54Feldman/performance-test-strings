@@ -6,8 +6,8 @@ import telran.strings.StringsJoinOperator;
 
 public class StringsJoinPerfomanceApp {
 
-	private static final int N_STRINGS = 10000;
-	private static final int N_RUNS = 10000;
+	private static final int N_STRINGS = 1000;
+	private static final int N_RUNS = 1000;
 
 	public static void main(String[] args) {
 		String[] array = getArray(N_STRINGS);
